@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block 'body' %}
+ 	<div class="container">
+ 		<form action="" method="post">{% csrf_token %}
+ 			<br>
+ 			<label>E-mail</label>
+ 			<input type="email" placeholder="Digite seu E-mail..." name="email" class="form-control">
+ 			
+ 		</form>
+ 	
+ 	</div>
+{% endblock %}
