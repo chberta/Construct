@@ -1,0 +1,6 @@
+#Criar ambiente Trabalho
+python -m venv venv
+
+#ativar ambiente
+cd venv/Scripts
+activate

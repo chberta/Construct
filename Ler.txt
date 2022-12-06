@@ -1,0 +1,33 @@
+# 1 Vez Somente Cria Repositorio do GIT
+git init 
+
+# Caso deseje ver status
+git status
+
+#salvar Versão
+git add .
+
+#salvar a nova versão
+git commit -m "MENSAGEM"
+
+#para garantir q o commit fique com " main " novo padrão
+git branch -M main
+
+#associa seu projeto ao git
+git remote add origin git@github.com:chberta/BotPescaAlbion.git
+
+
+#envia os arquivos.
+git push -u origin main
+
+## Até aqui Primeira vez ##
+
+## Inicio para sempre que for atualizar. ##
+
+git add .
+git commit -m "MENSAGEM"
+git push -u origin main
+
+
+## para clonar projeto. ##
+git clone git@github.com:chberta/BotPescaAlbion.git
